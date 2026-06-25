@@ -15,7 +15,7 @@ public class TiketNBA {
         System.out.println("Welcome to the NBA Ticket Booking System!");
 
         while (running) {
-            System.out.println("\n--- MAIN MENU ---");
+            System.out.println("\n--- MAIN MENU ----");
             System.out.println("1. View Available Games");
             System.out.println("2. Search Games by Team");
             System.out.println("3. Sort Games by Price");
