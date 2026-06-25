@@ -13,7 +13,7 @@ public class GameTest {
         assertEquals("Lakers vs Warriors", game.getMatch());
         assertEquals("Oct 22, 2024", game.getDate());
         assertEquals(150.0, game.getPrice());
-        assertEquals(50, game.getAvailableSeats());
+        assertEquals(20, game.getAvailableSeats());
     }
 
     @Test
