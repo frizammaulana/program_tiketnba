@@ -31,6 +31,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
             </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.11.0.3922</version>
+            </plugin>
         </plugins>
     </build>
 
@@ -38,7 +43,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/raffarizzy/program_tiketnba</url>
+            <url>https://maven.pkg.github.com/frizammaulana/program_tiketnba</url>
         </repository>
     </distributionManagement>
 
