@@ -12,7 +12,7 @@ public class TiketNBA {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
-        System.out.println("Welcome to the NBA Ticket Booking System!");
+        System.out.println("Welcome to the NBA Ticket Booking System! V1.0.1");
 
         while (running) {
             System.out.println("\n--- MAIN MENU ----");
