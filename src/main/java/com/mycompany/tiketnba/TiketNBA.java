@@ -12,16 +12,16 @@ public class TiketNBA {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
-        System.out.println("Welcome to the NBA Ticket Booking System!");
+        System.out.println("Welcome to the NBA Ticket Booking System! V1.0.1");
 
         while (running) {
-            System.out.println("\n--- MAIN MENU ---");
+            System.out.println("\n--- MAIN MENU ----");
             System.out.println("1. View Available Games");
             System.out.println("2. Search Games by Team");
             System.out.println("3. Sort Games by Price");
             System.out.println("4. Book a Ticket");
             System.out.println("5. View Booking History");
-            System.out.println("6. Exit");
+            System.out.println("6. Exit ");
             System.out.print("Choose an option: ");
 
             String choice = scanner.nextLine();
